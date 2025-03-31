@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './img/logo_dark.svg';
+import logo from '../../img/logo_dark.svg';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
       <a className="navbar-brand" href="/">
-          <img src={logo} alt="Logo" style={{ height: '40px' }} />
+          <img src={logo} alt="Logo" style={{ height: '30px' }} />
         </a>
         <button
           className="navbar-toggler"
